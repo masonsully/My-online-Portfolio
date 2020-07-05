@@ -1,0 +1,219 @@
+* {
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    color:#001a33;
+  }
+html {
+  scroll-behavior: smooth;
+}
+                        /* Navigation Bar */
+#navbar-link
+  a:link {
+    color: #001a33;
+  }
+  a:visited {
+    color: #001a33;
+  }
+  a:hover {
+    color: black;
+  }
+  a:active {
+    color: blue;
+  }
+
+#Navbar {
+  padding-top: 10px;
+  font-size: 25px;
+  padding-left: 1230px;
+}
+
+                          /* Main Section */
+                          /* Introduction */
+
+#Introduction {
+  text-align: center;
+  padding-bottom: 50px;
+  height: 800px;
+  font-size: 35px;
+  line-height: 100px;
+}
+#Desk {
+  padding-top: 150px;
+  height: 500px;
+  width: auto;
+}
+#Title {
+  padding-top: 150px;
+  font-weight: bold;
+}
+
+#Statement{
+  font-size: 28px;
+}
+                          /* About me */
+#about-me-row {
+  background-color: #54aecb;
+  font-weight: bold;
+  padding-bottom: 200px;
+}
+
+#about-me-title{
+  padding-top: 70px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+
+#about-me {
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  line-height: 35px;
+}
+                          /* Skills */
+
+#Skill-Title{
+  margin-top: -130px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+#Columns{
+  position: relative;
+  margin-top: 20px;
+  margin-left: 155px;
+  overflow: Hidden;
+  text-align: center;
+  width: 1500px;
+  height: 200px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #f3f3f3;
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 80px;
+  
+}
+#Column-Images{
+  display: flex;
+  justify-content: space-between;
+}
+#Html5 {
+  width: 100px;
+}
+#Javascript {
+  width: 100px;
+}
+#Css3 {
+  width: 100px;
+}
+#Python {
+  width: 100px;
+  margin-right: -90px;
+  height: 140px;
+  margin-top: 10px;
+}
+#React {
+  width: 200px;
+}
+#Column-Images {
+  padding-right: 10px;
+}
+
+                              /* My Projects */
+.projects {
+  text-align: center;
+  font-size: 35px;
+  line-height: 100px;
+}
+                              /* Boxes */
+
+#Box1, #Box2, #Box3 {
+  height: 400px;
+  width: 350px;
+  margin: 50px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.Boxes {
+  margin-bottom: 100px;
+  display:inline-flex;
+  margin-left: 15%;
+  text-align: center;
+  border-radius: 100px;
+}
+
+                                 /* Box1 */
+#AADog {
+width: 320px;
+height: 380px;
+border-radius: 25px;
+}
+
+#Box1:hover .image {opacity:0.2;}
+#Box1:hover .text {opacity:1;}
+
+#AADogText, #AADog {transition: opacity 0.3s ease-in-out;}
+
+#AADogText {position:absolute; top: 30%; opacity:0;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  width:340px ;
+  height:390px ;
+  padding-left: 10px;  
+}
+                              /* Box2 */
+#Box2:hover .image {opacity:0.2;}
+#Box2:hover .text {opacity:1;}
+                              /* Box3 */
+#Box3:hover .image {opacity:0.2;}
+#Box3:hover .text {opacity:1;}
+                              /* Contact Me  */
+
+.Contactme {
+  color:black;
+  text-decoration:none;
+  Padding-top: 80px;
+}
+                              /* Footer */
+Footer {
+    background-color: #54aecb;
+    text-align: center;
+}
+#footer-text {
+  color: #cae6ef;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+}
+.Socials {
+  margin-bottom: 80px;
+  margin-top: 50px;
+  display:inline-flex;
+  padding: 5px;
+}
+#Facebook{
+  height: 100px;
+  width: 130px;
+  padding-right: 50px;
+}
+#Github{
+  height: 130px;
+  width: 150px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+#Linkedin{
+  height: 100px;
+  width: 130px;
+  padding-right: 50px;
+}
+#Mailto{
+  height: 100px;
+  padding-right: 50px;
+}

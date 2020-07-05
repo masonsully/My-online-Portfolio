@@ -1,0 +1,67 @@
+* {
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    color:#001a33;
+  }
+html {
+  scroll-behavior: smooth;
+}
+                    /* Navigation bar */
+#Home {
+  height: 80px;
+  width: 80px;
+}
+.Contactme {
+  background-color:#54aecb;
+  width: 800px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 25px;
+  display: block;
+}
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+#nametitle {
+  width: 120px;
+  margin-right: 50px;
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+label [for="nametitle"]{
+  display: none;
+}
+label [for="lname"]{
+  display: none;
+}
+label [for="Company"]{
+  display: none;
+}
+label [for="Email"]{
+  display: none;
+}
+label [for="Telephone"]{
+  display: none;
+}
+
