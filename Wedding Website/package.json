@@ -6,7 +6,7 @@
   "dependencies": {
     "@react-navigation/drawer": "^5.8.2",
     "bootstrap": "^4.5.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gulp-sass": "^4.1.0",
     "moment": "^2.26.0",
     "react-moment": "^0.9.7",
